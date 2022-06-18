@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import format from 'date-fns/format';
+import { QUERIES } from '../../constants';
 
 const Logo = (props) => {
   return (
@@ -17,6 +18,8 @@ const Logo = (props) => {
 
 const Wrapper = styled.div`
   text-align: center;
+  display: grid;
+ 
 `;
 
 const Link = styled.a`
